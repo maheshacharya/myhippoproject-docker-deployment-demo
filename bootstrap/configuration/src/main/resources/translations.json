@@ -1,0 +1,442 @@
+{
+  "hippo:templates":   {
+    "en":     {
+      "new-video-folder": "new video folder",
+      "new-banner-folder": "new banner folder",
+      "new-faq-item-folder": "new FAQ item folder",
+      "new-banner-document": "new banner document",
+      "new-faq-list": "new FAQ list",
+      "new-content-document": "new content document",
+      "new-news-document": "new news item",
+      "new-video-document": "new video",
+      "new-resource-bundle": "new resource bundle",
+      "new-faq-item": "new FAQ item",
+      "new-news-folder": "new news item folder",
+      "new-untranslated-folder": "new untranslated folder",
+      "new-blog-document": "new blog post",
+      "new-poll-document": "new poll document",
+      "new-content-folder": "new content folder",
+      "new-faq-list-document-folder": "new FAQ list folder",
+      "new-blog-folder": "new blog folder",
+      "new-blogauthor-folder": "new blog author folder",
+      "new-poll-folder": "new poll folder",
+      "new-events-document": "new event",
+      "new-events-folder": "new events folder",
+      "new-blogauthor-document": "new blog author"
+    },
+    "nl":     {
+      "new-video-folder": "nieuwe videomap",
+      "new-banner-folder": "nieuwe banner map",
+      "new-banner-document": "nieuwe banner",
+      "new-faq-item-folder": "nieuwe FAQ item map",
+      "new-faq-list": "nieuwe FAQ lijst",
+      "new-news-document": "nieuw nieuwsbericht",
+      "new-content-document": "nieuw content document",
+      "new-resource-bundle": "nieuwe resource bundle",
+      "new-video-document": "nieuwe video",
+      "new-faq-item": "nieuw FAQ item",
+      "new-news-folder": "nieuwe nieuwsmap",
+      "new-untranslated-folder": "nieuwe onvertaalde map",
+      "new-blog-document": "nieuwe blog post map",
+      "new-poll-document": "nieuwe poll",
+      "new-content-folder": "nieuwe contentmap",
+      "new-faq-list-document-folder": "nieuwe FAQ lijst map",
+      "new-blog-folder": "nieuwe banner map",
+      "new-blogauthor-folder": "nieuwe blog auteur map",
+      "new-poll-folder": "nieuwe pollmap",
+      "new-events-folder": "nieuwe evenementenmap",
+      "new-events-document": "nieuw evenement",
+      "new-blogauthor-document": "nieuwe blog auteur"
+    },
+    "de":     {
+      "new-banner-folder": "Neuer Banner-Ordner",
+      "new-video-folder": "Neuer Video-Ordner",
+      "new-faq-item-folder": "Neues FAQ-Item-Ordner",
+      "new-banner-document": "Neues Banner",
+      "new-faq-list": "Neue FAQ-Liste",
+      "new-content-document": "Neues Content-Document",
+      "new-news-document": "Neue News",
+      "new-resource-bundle": "Neues Resource-Bundle",
+      "new-video-document": "Neues Video",
+      "new-faq-item": "Neues FAQ-Item",
+      "new-news-folder": "Neuer News-Ordner",
+      "new-untranslated-folder": "Neuer nicht übersetzter Ordner",
+      "new-blog-document": "Neuer Blog-Post",
+      "new-poll-document": "Neue Poll",
+      "new-content-folder": "Neuer Content-Ordner",
+      "new-faq-list-document-folder": "Neuer FAQ-Listen-Ordner",
+      "new-blog-folder": "Neuer Blog-Ordner",
+      "new-blogauthor-folder": "Neuer Blogger-Ordner",
+      "new-poll-folder": "Neuer Poll-Ordner",
+      "new-events-folder": "Neuer Events-Ordner",
+      "new-events-document": "Neues Event",
+      "new-blogauthor-document": "Neuer Blogger"
+    },
+    "fr":     {
+      "new-banner-folder": "nouveau dossier bannière",
+      "new-video-folder": "nouveau dossier vidéo",
+      "new-faq-item-folder": "nouveau dossier élément FAQ",
+      "new-banner-document": "nouvelle bannière",
+      "new-faq-list": "nouvelle liste FAQ",
+      "new-news-document": "nouveau message d'info",
+      "new-content-document": "nouveau document contenu",
+      "new-video-document": "nouvelle vidéo",
+      "new-resource-bundle": "nouveau resource bundle",
+      "new-faq-item": "nouvel élément FAQ",
+      "new-news-folder": "nouveau dossier messages d'info",
+      "new-untranslated-folder": "nouveau dossier non traduit",
+      "new-blog-document": "nouveau post blog",
+      "new-poll-document": "nouveau sondage",
+      "new-content-folder": "nouveau dossier contenu",
+      "new-faq-list-document-folder": "nouveau dossier liste FAQ",
+      "new-blog-folder": "nouveau dossier post blog",
+      "new-blogauthor-folder": "nouveau dossier auteur blog",
+      "new-poll-folder": "nouveau dossier sondage",
+      "new-events-document": "nouvel événement",
+      "new-events-folder": "nouveau dossier événements",
+      "new-blogauthor-document": "nouvel auteur blog"
+    }
+  },
+  "hippo:types":   {
+    "myhippoproject:bannerdocument":     {
+      "en":       {
+        "myhippoproject:content": "Content",
+        "myhippoproject:title": "Title",
+        "jcr:name": "Banner",
+        "myhippoproject:link": "Link",
+        "myhippoproject:image": "Image"
+      },
+      "nl":       {
+        "myhippoproject:content": "Inhoud",
+        "myhippoproject:title": "Titel",
+        "jcr:name": "Banner",
+        "myhippoproject:link": "Link",
+        "myhippoproject:image": "Afbeelding"
+      },
+      "fr":       {
+        "myhippoproject:content": "Contenu",
+        "myhippoproject:title": "Titre",
+        "jcr:name": "Bannière",
+        "myhippoproject:link": "Lien",
+        "myhippoproject:image": "Image"
+      },
+      "de":       {
+        "myhippoproject:content": "Inhalt",
+        "myhippoproject:title": "Titel",
+        "jcr:name": "Banner",
+        "myhippoproject:link": "Link",
+        "myhippoproject:image": "Abbildung"
+      }
+    },
+    "myhippoproject:eventsdocument":     {
+      "en":       {
+        "myhippoproject:enddate": "End date",
+        "jcr:name": "Event",
+        "myhippoproject:location": "Location",
+        "myhippoproject:image": "Image",
+        "myhippoproject:content": "Content",
+        "myhippoproject:title": "Title",
+        "myhippoproject:date": "Start date",
+        "myhippoproject:introduction": "Introduction"
+      },
+      "nl":       {
+        "jcr:name": "Evenement",
+        "myhippoproject:enddate": "Einddatum",
+        "myhippoproject:location": "Locatie",
+        "myhippoproject:image": "Afbeelding",
+        "myhippoproject:title": "Titel",
+        "myhippoproject:content": "Inhoud",
+        "myhippoproject:date": "Startdatum",
+        "myhippoproject:introduction": "Introductie"
+      },
+      "fr":       {
+        "myhippoproject:enddate": "Date de fin",
+        "jcr:name": "Événement",
+        "myhippoproject:location": "Lieu",
+        "myhippoproject:image": "Image",
+        "myhippoproject:content": "Contenu",
+        "myhippoproject:title": "Titre",
+        "myhippoproject:date": "Date de début",
+        "myhippoproject:introduction": "Introduction"
+      },
+      "de":       {
+        "jcr:name": "Event",
+        "myhippoproject:enddate": "Enddatum",
+        "myhippoproject:location": "Standort",
+        "myhippoproject:image": "Abbildung",
+        "myhippoproject:title": "Titel",
+        "myhippoproject:content": "Inhalt",
+        "myhippoproject:date": "Startdatum",
+        "myhippoproject:introduction": "Einführung"
+      }
+    },
+    "myhippoproject:faqitem":     {
+      "en":       {
+        "myhippoproject:answer": "Answer",
+        "myhippoproject:question": "Question",
+        "jcr:name": "FAQ Item"
+      },
+      "nl":       {
+        "myhippoproject:answer": "Antwoord",
+        "myhippoproject:question": "Vraag",
+        "jcr:name": "FAQ Item"
+      },
+      "fr":       {
+        "myhippoproject:answer": "Réponse",
+        "myhippoproject:question": "Question",
+        "jcr:name": "Élément de FAQ"
+      },
+      "de":       {
+        "myhippoproject:answer": "Antwort",
+        "myhippoproject:question": "Frage",
+        "jcr:name": "FAQ-Item"
+      }
+    },
+    "myhippoproject:faqlist":     {
+      "en":       {
+        "myhippoproject:title": "Title",
+        "myhippoproject:description": "Description",
+        "jcr:name": "FAQ List",
+        "myhippoproject:faqitem": "FAQ items"
+      },
+      "nl":       {
+        "myhippoproject:title": "Titel",
+        "myhippoproject:description": "Beschrijving",
+        "jcr:name": "FAQ Lijst",
+        "myhippoproject:faqitem": "FAQ items"
+      },
+      "fr":       {
+        "myhippoproject:title": "Titre",
+        "myhippoproject:description": "Description",
+        "jcr:name": "Liste de FAQ",
+        "myhippoproject:faqitem": "Éléments de FAQ"
+      },
+      "de":       {
+        "myhippoproject:title": "Titel",
+        "myhippoproject:description": "Beschreibung",
+        "jcr:name": "FAQ-Liste",
+        "myhippoproject:faqitem": "FAQ-Items"
+      }
+    },
+    "myhippoproject:newsdocument":     {
+      "en":       {
+        "myhippoproject:source": "Source",
+        "jcr:name": "News Item",
+        "myhippoproject:location": "Location",
+        "myhippoproject:author": "Author",
+        "myhippoproject:image": "Image",
+        "myhippoproject:content": "Content",
+        "myhippoproject:title": "Title",
+        "myhippoproject:date": "Date",
+        "myhippoproject:introduction": "Introduction"
+      },
+      "nl":       {
+        "myhippoproject:source": "Bron",
+        "jcr:name": "Nieuwsbericht",
+        "myhippoproject:author": "Auteur",
+        "myhippoproject:location": "Locatie",
+        "myhippoproject:image": "Afbeelding",
+        "myhippoproject:content": "Inhoud",
+        "myhippoproject:title": "Titel",
+        "myhippoproject:date": "Datum",
+        "myhippoproject:introduction": "Introductie"
+      },
+      "de":       {
+        "myhippoproject:source": "Quelle",
+        "jcr:name": "News",
+        "myhippoproject:author": "Verfasser",
+        "myhippoproject:location": "Standort",
+        "myhippoproject:image": "Abbildung",
+        "myhippoproject:content": "Inhalt",
+        "myhippoproject:title": "Titel",
+        "myhippoproject:date": "Datum",
+        "myhippoproject:introduction": "Einführung"
+      },
+      "fr":       {
+        "myhippoproject:source": "Source",
+        "jcr:name": "Message d'info",
+        "myhippoproject:author": "Auteur",
+        "myhippoproject:location": "Lieu",
+        "myhippoproject:image": "Image",
+        "myhippoproject:content": "Contenu",
+        "myhippoproject:title": "Titre",
+        "myhippoproject:date": "Date",
+        "myhippoproject:introduction": "Introduction"
+      }
+    },
+    "myhippoproject:contentdocument":     {
+      "en":       {
+        "myhippoproject:content": "Content",
+        "myhippoproject:title": "Title",
+        "jcr:name": "Simple Document",
+        "myhippoproject:publicationdate": "Publication date",
+        "myhippoproject:introduction": "Introduction"
+      },
+      "nl":       {
+        "jcr:name": "Eenvoudig Document",
+        "myhippoproject:content": "Inhoud",
+        "myhippoproject:title": "Titel",
+        "myhippoproject:publicationdate": "Publicatiedatum",
+        "myhippoproject:introduction": "Introductie"
+      },
+      "fr":       {
+        "jcr:name": "Document simple",
+        "myhippoproject:content": "Contenu",
+        "myhippoproject:title": "Titre",
+        "myhippoproject:publicationdate": "Date de publication",
+        "myhippoproject:introduction": "Introduction"
+      },
+      "de":       {
+        "myhippoproject:content": "Inhalt",
+        "myhippoproject:title": "Titel",
+        "jcr:name": "Einfaches Dokument",
+        "myhippoproject:publicationdate": "Publikationsdatum",
+        "myhippoproject:introduction": "Einführung"
+      }
+    },
+    "myhippoproject:video":     {
+      "en":       {
+        "jcr:name": "Video",
+        "myhippoproject:title": "Title",
+        "myhippoproject:description": "Description",
+        "myhippoproject:link": "Video URL"
+      },
+      "nl":       {
+        "myhippoproject:title": "Titel",
+        "myhippoproject:description": "Beschrijving",
+        "jcr:name": "Video",
+        "myhippoproject:link": "Video URL"
+      },
+      "fr":       {
+        "myhippoproject:title": "Titre",
+        "myhippoproject:description": "Description",
+        "jcr:name": "Vidéo",
+        "myhippoproject:link": "URL vidéo"
+      },
+      "de":       {
+        "jcr:name": "Video",
+        "myhippoproject:title": "Titel",
+        "myhippoproject:description": "Beschreibung",
+        "myhippoproject:link": "Video-URL"
+      }
+    },
+    "myhippoproject:blogpost":     {
+      "en":       {
+        "jcr:name": "Blogpost",
+        "myhippoproject:content": "Content",
+        "myhippoproject:title": "Title",
+        "myhippoproject:authors#hint": "Link to author document(s)",
+        "myhippoproject:categories": "Categories",
+        "myhippoproject:authors": "Author(s)",
+        "myhippoproject:publicationdate": "Publication Date",
+        "myhippoproject:introduction": "Introduction"
+      },
+      "nl":       {
+        "jcr:name": "Blogpost",
+        "myhippoproject:content": "Inhoud",
+        "myhippoproject:title": "Titel",
+        "myhippoproject:authors#hint": "Link naar auteur document(en)",
+        "myhippoproject:categories": "Categorieën",
+        "myhippoproject:authors": "Auteur(s)",
+        "myhippoproject:publicationdate": "Publicatiedatum",
+        "myhippoproject:introduction": "Introductie"
+      },
+      "fr":       {
+        "jcr:name": "Post blog",
+        "myhippoproject:content": "Contenu",
+        "myhippoproject:title": "Titre",
+        "myhippoproject:authors#hint": "Lien vers le(s) document(s) de l'auteur",
+        "myhippoproject:categories": "Catégories",
+        "myhippoproject:authors": "Auteur(s)",
+        "myhippoproject:publicationdate": "Date de publication",
+        "myhippoproject:introduction": "Introduction"
+      },
+      "de":       {
+        "jcr:name": "Blog-Post",
+        "myhippoproject:content": "Inhalt",
+        "myhippoproject:title": "Titel",
+        "myhippoproject:authors#hint": "Link zu Verfasserdokument(en)",
+        "myhippoproject:categories": "Kategorien",
+        "myhippoproject:authors": "Verfasser",
+        "myhippoproject:publicationdate": "Publikationsdatum",
+        "myhippoproject:introduction": "Einführung"
+      }
+    },
+    "myhippoproject:author":     {
+      "en":       {
+        "myhippoproject:fullname#hint": "Full name",
+        "myhippoproject:photo#hint": "Photo of the author",
+        "myhippoproject:accounts#hint": "External social media accounts",
+        "myhippoproject:accounts": "Accounts",
+        "myhippoproject:fullname": "Name",
+        "jcr:name": "Author",
+        "myhippoproject:content": "Description",
+        "myhippoproject:role": "Role",
+        "myhippoproject:content#hint": "Information about the author",
+        "myhippoproject:photo": "Photo"
+      },
+      "nl":       {
+        "myhippoproject:fullname#hint": "Volledige naam",
+        "myhippoproject:photo#hint": "Foto van de auteur",
+        "myhippoproject:accounts#hint": "Externe social media accounts",
+        "myhippoproject:accounts": "Accounts",
+        "myhippoproject:fullname": "Naam",
+        "jcr:name": "Auteur",
+        "myhippoproject:content": "Beschrijving",
+        "myhippoproject:role": "Rol",
+        "myhippoproject:content#hint": "Informatie over de auteur",
+        "myhippoproject:photo": "Foto"
+      },
+      "fr":       {
+        "myhippoproject:fullname#hint": "Nom complet",
+        "myhippoproject:photo#hint": "Photo de l'auteur",
+        "myhippoproject:accounts#hint": "Comptes médias sociaux externes",
+        "myhippoproject:accounts": "Konten",
+        "myhippoproject:fullname": "Nom",
+        "jcr:name": "Auteur",
+        "myhippoproject:content": "Description",
+        "myhippoproject:role": "Rôle",
+        "myhippoproject:content#hint": "Informations sur l'auteur",
+        "myhippoproject:photo": "Photo"
+      },
+      "de":       {
+        "myhippoproject:fullname#hint": "Vollständiger Name",
+        "myhippoproject:photo#hint": "Foto des Verfassers",
+        "myhippoproject:accounts#hint": "Externe Konten soziale Medien",
+        "myhippoproject:accounts": "Comptes",
+        "myhippoproject:fullname": "Name",
+        "jcr:name": "Verfasser",
+        "myhippoproject:content": "Beschreibung",
+        "myhippoproject:role": "Rolle",
+        "myhippoproject:content#hint": "Informationen über den Verfasser",
+        "myhippoproject:photo": "Foto"
+      }
+    },
+    "myhippoproject:account":     {
+      "en":       {
+        "myhippoproject:link#hint": "External link to the account",
+        "myhippoproject:type": "Type",
+        "jcr:name": "Account (Compound)",
+        "myhippoproject:link": "Link"
+      },
+      "nl":       {
+        "myhippoproject:link#hint": "Externe link naar het account",
+        "myhippoproject:type": "Soort",
+        "jcr:name": "Account (Compound)",
+        "myhippoproject:link": "Link"
+      },
+      "fr":       {
+        "myhippoproject:link#hint": "Lien externe vers le compte",
+        "myhippoproject:type": "Type",
+        "jcr:name": "Compte (Compound)",
+        "myhippoproject:link": "Lien"
+      },
+      "de":       {
+        "myhippoproject:link#hint": "Externer Link zum Konto",
+        "myhippoproject:type": "Art",
+        "jcr:name": "Konto (Compound)",
+        "myhippoproject:link": "Link"
+      }
+    }
+  }
+}
