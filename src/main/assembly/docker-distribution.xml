@@ -6,29 +6,14 @@
         <format>tar.gz</format>
     </formats>
     <includeBaseDirectory>false</includeBaseDirectory>
+    <componentDescriptors>
+        <componentDescriptor>conf-component.xml</componentDescriptor>
+        <componentDescriptor>webapps-component.xml</componentDescriptor>
+        <componentDescriptor>common-lib-component.xml</componentDescriptor>
+        <componentDescriptor>shared-lib-component.xml</componentDescriptor>
+        <componentDescriptor>shared-lib-content-component.xml</componentDescriptor>
+    </componentDescriptors>
     <files>
-        <file>
-            <source>cms/target/cms.war</source>
-            <outputDirectory>/webapps</outputDirectory>
-            <destName>cms.war</destName>
-        </file>
-        <file>
-            <source>site/target/site.war</source>
-            <outputDirectory>/webapps</outputDirectory>
-            <destName>site.war</destName>
-        </file>
-
-        <file>
-            <source>conf/log4j-dist.xml</source>
-            <outputDirectory>/conf</outputDirectory>
-            <destName>log4j.xml</destName>
-        </file>
-
-        <file>
-            <source>conf/log4j.dtd</source>
-            <outputDirectory>/conf</outputDirectory>
-            <destName>log4j.dtd</destName>
-        </file>
         <file>
             <source>conf/docker-context.xml</source>
             <outputDirectory>/conf</outputDirectory>
@@ -40,7 +25,7 @@
             <outputDirectory>/conf</outputDirectory>
             <destName>catalina.policy</destName>
         </file>
-        
+
         <file>
             <source>conf/catalina.properties</source>
             <outputDirectory>/conf</outputDirectory>
@@ -51,6 +36,7 @@
             <outputDirectory>/conf</outputDirectory>
             <destName>repository.xml</destName>
         </file>
+
     </files>
     <dependencySets>
         <dependencySet>
