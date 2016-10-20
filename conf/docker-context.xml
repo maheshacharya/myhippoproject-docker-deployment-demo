@@ -21,5 +21,6 @@
             minEvictableIdleTimeMillis="60000"
             username="hippo" password="hippo"
             driverClassName="com.mysql.jdbc.Driver"
-            url="jdbc:mysql://192.168.99.100:3306/hippo?characterEncoding=utf8"/>
+            url="jdbc:mysql://ec2-52-90-114-253.compute-1.amazonaws.com:3306/hippo?characterEncoding=utf8"/>
+           <!-- url="jdbc:mysql://192.168.99.100:3306/hippo?characterEncoding=utf8"/> -->
 </Context>
