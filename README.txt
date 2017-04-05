@@ -61,13 +61,14 @@ You may check it, by running following command.
 
 You will see results like below (you will see other images also listed)
 
-REPOSITORY                                     TAG                  IMAGE ID            CREATED             SIZE
-hippo/myhippoproject                           latest               30d5f532401f        3 hours ago         442 MB
+REPOSITORY           TAG    IMAGE ID     CREATED       SIZE
+hippo/myhippoproject latest 30d5f532401f 3 hours ago   442 MB
 
 
 Running Docker Container
 ========================
-The docker image created using the maven profile "docker" contains everything (OS[ubuntu], tomcat, h2db, etc) needed for running the this project (myhippoproject)
+The docker image created using the maven profile "docker" contains everything (OS[ubuntu], tomcat, h2db, etc)
+needed for running the this project (myhippoproject)
 you run a container using following command.
 
   docker run -p 8080:8080 hippo/myhippoproject
