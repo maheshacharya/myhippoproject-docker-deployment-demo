@@ -461,7 +461,7 @@
                         <configuration>
                             <dockerDirectory>${project.basedir}</dockerDirectory>
                             <imageName>hippo/${project.artifactId}</imageName>
-                            <dockerHost>http://149.56.178.96:2376</dockerHost>
+                          <!--  <dockerHost>http://149.56.178.96:2376</dockerHost> -->
                         </configuration>
                     </plugin>
                 </plugins>
