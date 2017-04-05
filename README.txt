@@ -40,6 +40,45 @@ empty repositories, for instance deployment on a new environment.
 
 See also src/main/assembly/*.xml if you need to customize the distributions.
 
+Building Docker Image
+=======================
+Requirements:
+For building image on a local machine:
+In order to build Docker images locally, you will require a docker host running on your local machine.
+Install docker on your machine first, follow directions at the link below and choose an appropriate installation path based on your OS.
+https://docs.docker.com/engine/installation/
+
+
+To build a docker image:
+
+  mvn clean verify
+  mvn -P docker
+
+By executing "docker" maven profile, a docker image will be created and placed in your docker host with namespace hippo/myhippoproject.
+You may check it, by running following command.
+
+  docker images
+
+You will see results like below (you will see other images also listed)
+
+REPOSITORY                                     TAG                  IMAGE ID            CREATED             SIZE
+hippo/myhippoproject                           latest               30d5f532401f        3 hours ago         442 MB
+
+
+Running Docker Container
+========================
+The docker image created using the maven profile "docker" contains everything (OS[ubuntu], tomcat, h2db, etc) needed for running the this project (myhippoproject)
+you run a container using following command.
+
+  docker run -p 8080:8080 hippo/myhippoproject
+
+The "-p 8080:8080" is a port mapping between the host machine and docker container.
+Without mapping this port, you will not be able to access CMS (for example) at http://localhost:8080/cms
+Once the container is running, you can access following applications.
+
+  http://localhost:8080/site
+  http://localhost:8080/cms
+
 Using JRebel
 ============
 
