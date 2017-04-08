@@ -52,7 +52,7 @@ https://docs.docker.com/engine/installation/
 To build a docker image:
 
   mvn clean verify
-  mvn -P docker
+  mvn -P docker.image
 
 By executing "docker" maven profile, a docker image will be created and placed in your docker host with namespace hippo/myhippoproject.
 You may check it, by running following command.
