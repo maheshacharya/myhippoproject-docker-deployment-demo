@@ -13,7 +13,7 @@
               type="javax.mail.Session" mail.smtp.host="localhost"/>
 
     <!-- JNDI resource exposing database connection goes here -->
-    <!--
+
     <Resource
             name="jdbc/repositoryDS" auth="Container" type="javax.sql.DataSource"
             maxTotal="20" maxIdle="10" initialSize="2" maxWaitMillis="10000"
@@ -22,6 +22,5 @@
             minEvictableIdleTimeMillis="60000"
             username="hippo" password="hippo"
             driverClassName="com.mysql.jdbc.Driver"
-            url="jdbc:mysql://ec2-52-90-114-253.compute-1.amazonaws.com:3306/hippo?characterEncoding=utf8"/>
-          -->
+            url="jdbc:mysql://mysql-database:3306/hippo?characterEncoding=utf8"/>
 </Context>
