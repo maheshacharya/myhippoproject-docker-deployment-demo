@@ -1,5 +1,5 @@
 FROM tomcat:jre8
-ENV JAVA_ENDORSED_DIRS "/usr/local/tomcat/endorsed"
+ENV JAVA_ENDORSED_DIRS="/usr/local/tomcat/endorsed"
 ENV MAX_HEAP=512
 ENV MIN_HEAP=256
 ENV JVM_OPTS="-server -Xmx${MAX_HEAP}m -Xms${MIN_HEAP}m -XX:MaxPermSize=192m -XX:NewRatio=2 -XX:SurvivorRatio=6 -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:CMSFullGCsBeforeCompaction=1 -XX:MaxGCPauseMillis=200"
