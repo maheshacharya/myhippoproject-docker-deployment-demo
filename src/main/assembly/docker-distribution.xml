@@ -50,6 +50,7 @@
                 <include>mysql:mysql-connector-java</include>
             </includes>
         </dependencySet>
+
         <dependencySet>
             <useProjectArtifact>false</useProjectArtifact>
             <outputDirectory>/shared/lib</outputDirectory>
