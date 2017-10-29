@@ -20,7 +20,7 @@
             testWhileIdle="true" testOnBorrow="false" validationQuery="SELECT 1"
             timeBetweenEvictionRunsMillis="10000"
             minEvictableIdleTimeMillis="60000"
-            username="root" password="hippo"
+            username="hippo" password="hippo"
             driverClassName="com.mysql.jdbc.Driver"
             url="jdbc:mysql://mysql-database:3306/hippo?characterEncoding=utf8"/>
 </Context>
